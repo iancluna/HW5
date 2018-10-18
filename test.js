@@ -31,8 +31,7 @@ function decreaseFunction(){
         document.getElementById("Balloon").style.fontSize = (currentSize - 15) + 'px'
     }
     else {
-        document.getElementById("Balloon").style.fontSize = "30px";
-        document.getElementById("Balloon").textContent="Done"
+        document.getElementById("Balloon").textContent="💀Done💀"
         document.removeEventListener("keydown",sizeFunc)
     }
 }
